@@ -1,0 +1,65 @@
+<resources>
+    <!--加载中对话框-->
+    <declare-styleable name="CircularProgress">
+        <attr name="borderWidth" format="dimension" />
+    </declare-styleable>
+
+    <declare-styleable name="CommonTitleBar">
+        <attr name="title_content" format="string" />
+        <attr name="right_btn_text" format="string" />
+        <attr name="right_text" format="string" />
+        <attr name="right_nfc_visible" format="boolean" />
+        <attr name="right_barscan_visible" format="boolean" />
+        <attr name="right_refresh_visible" format="boolean" />
+    </declare-styleable>
+
+    <declare-styleable name="SwitchTextView">
+        <attr name="android:text" />
+        <attr name="android:textColor" />
+        <attr name="android:textSize" />
+        <attr name="android:checked" />
+        <attr name="android:thumb" />
+        <attr name="android:track" />
+        <attr name="android:switchMinWidth" />
+        <attr name="android:switchPadding" />
+        <attr name="preferenceKey" format="string" />
+        <attr name="useImageSwitch" format="boolean" />
+        <attr name="switchWidth" format="dimension" />
+        <attr name="switchHeight" format="dimension" />
+    </declare-styleable>
+
+    <declare-styleable name="IndicatorTextView">
+        <attr name="android:text" />
+        <attr name="android:textSize" />
+        <attr name="checked" format="boolean" />
+        <attr name="colorFocus" format="color" />
+        <attr name="colorNormal" format="color" />
+        <attr name="indicatorTop" format="dimension" />
+        <attr name="indicatorHeight" format="dimension" />
+    </declare-styleable>
+    <!--圆点指示器-->
+    <declare-styleable name="XCircleIndicator">
+        <!-- 被选中圆点的颜色 -->
+        <attr name="fillColor" format="color" />
+        <!-- 未选中圆点的颜色 -->
+        <attr name="strokeColor" format="color" />
+        <!-- 圆点的大小 -->
+        <attr name="radius" format="dimension" />
+        <!-- 圆点间间距的大小 -->
+        <attr name="circleInterval" format="dimension" />
+    </declare-styleable>
+    <!--侧边栏样式-->
+    <declare-styleable name="LeftDrawer">
+        <attr name="left_content" format="string" />
+        <attr name="img" format="reference" />
+    </declare-styleable>
+    <!--自定义键盘-->
+    <declare-styleable name="NumKeyboardView">
+        <attr name="keyWidth" format="dimension" />
+        <attr name="keyHeight" format="dimension" />
+        <attr name="keySpace" format="dimension" />
+        <attr name="keyTextSize" format="dimension" />
+        <attr name="keyRadius" format="dimension" />
+    </declare-styleable>
+
+</resources>
